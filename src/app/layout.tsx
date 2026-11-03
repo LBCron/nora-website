@@ -15,11 +15,11 @@ const serif = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    default: "Nora Womack — Fashion Model",
+    default: "Nora Womack — Aspiring Model",
     template: "%s — Nora Womack",
   },
   description:
-    "Fashion model Nora Womack, based in Vancouver, British Columbia.",
+    "Nora Womack is an aspiring model based in Vancouver, BC. Bilingual in English and Mandarin Chinese, with a curious spirit and a love of filmmaking.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

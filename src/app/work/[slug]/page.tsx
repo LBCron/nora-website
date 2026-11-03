@@ -58,7 +58,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         <dl className="project-facts">
           <div><dt>Category</dt><dd>{project.category}</dd></div>
           <div><dt>Location</dt><dd>{project.location}</dd></div>
-          <div><dt>Year</dt><dd>{project.year}</dd></div>
+          <div><dt>Model</dt><dd>Nora Womack</dd></div>
         </dl>
 
         <section className="gallery" aria-label={`${project.title} gallery`}>

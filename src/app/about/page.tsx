@@ -6,7 +6,8 @@ import { assetPath } from "@/data/projects";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "About Vancouver-based fashion model Nora Womack.",
+  description:
+    "Meet Nora Womack, an aspiring model in Vancouver, BC. Bilingual in English and Mandarin Chinese, with a love of filmmaking, sports, and adventure.",
 };
 
 export default function AboutPage() {
@@ -17,10 +18,10 @@ export default function AboutPage() {
         <section className="page-intro">
           <h1>About</h1>
           <div className="page-intro-copy">
-            <p className="eyebrow">Nora Womack · Fashion model</p>
+            <p className="eyebrow">Nora Womack · Aspiring model</p>
             <p>
-              I bring intention, curiosity, and a grounded presence to fashion,
-              beauty, and editorial work.
+              Curious by nature. Always up for an adventure.
+              Usually laughing.
             </p>
           </div>
         </section>
@@ -39,23 +40,30 @@ export default function AboutPage() {
           <h2>Biography</h2>
           <div>
             <p>
-              Nora Womack is a fashion model based in Vancouver, British
-              Columbia. Her work spans editorial, campaign, beauty, and runway,
-              with a focus on expressive movement and quietly confident images.
+              Nora Womack is an aspiring model based in Vancouver, British
+              Columbia. Bilingual in English and Mandarin Chinese, she is
+              just starting out in modeling, with a love of storytelling
+              and making things with friends.
             </p>
             <p>
-              Nora brings an intuitive, collaborative approach to set. She is
-              known for her versatility, professionalism, and ability to move
-              between refined editorial work and relaxed lifestyle campaigns.
+              Her creative interests extend behind the camera, too. A short
+              film she made with friends received an award at a Microfilm
+              Festival ceremony hosted by the Chinese Flagship Program at
+              the University of Minnesota.
+            </p>
+            <p>
+              Away from the camera, Nora loves basketball, soccer, and dogs.
+              Adventurous and curious, with a big laugh, she is excited to
+              explore something new.
             </p>
           </div>
           <div>
             <h2>Profile</h2>
             <ul className="recognition-list">
               <li><span>Based</span><span>Vancouver, BC</span></li>
-              <li><span>Focus</span><span>Editorial / beauty</span></li>
-              <li><span>Markets</span><span>Canada / worldwide</span></li>
-              <li><span>Representation</span><span>Independent</span></li>
+              <li><span>Languages</span><span>English / Mandarin Chinese</span></li>
+              <li><span>Sports</span><span>Basketball / soccer</span></li>
+              <li><span>Creative interest</span><span>Filmmaking</span></li>
             </ul>
           </div>
         </section>

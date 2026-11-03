@@ -8,7 +8,6 @@ export type Project = {
   title: string;
   category: string;
   location: string;
-  year: string;
   description: string;
   cover: ProjectImage;
   gallery: ProjectImage[];
@@ -20,12 +19,11 @@ export const assetPath = (path: string) =>
 export const projects: Project[] = [
   {
     slug: "notes-from-the-coast",
-    title: "Notes from the Coast",
-    category: "Fashion editorial",
+    title: "Selected Portraits",
+    category: "Modeling portfolio",
     location: "Vancouver, BC",
-    year: "2026",
     description:
-      "An urban fashion story shaped by saturated color, graphic silhouettes, and the quiet tension between movement and stillness.",
+      "A first look at Nora Womack's modeling portfolio, from colorful suits to relaxed portraits by the waterfront.",
     cover: {
       src: assetPath("/images/nora/red-cover.webp"),
       alt: "Nora Womack wearing a red suit in an urban courtyard",
