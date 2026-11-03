@@ -13,11 +13,11 @@ export default function Home() {
       <main>
         <section className="hero">
           <div className="hero-copy">
-            <p className="eyebrow">Featured project · {featured.year}</p>
-            <h1>Quiet stories,<br />honestly observed.</h1>
+            <p className="eyebrow">Nora Womack · Vancouver, BC</p>
+            <h1>Curious spirit,<br />creative energy.</h1>
             <p className="hero-intro">
-              Nora Womack is a fashion model working across editorial,
-              campaign, and runway.
+              An aspiring model with a love of adventure, a big laugh,
+              and a creative streak.
             </p>
           </div>
           <Link
@@ -32,20 +32,20 @@ export default function Home() {
               priority
               sizes="100vw"
             />
-            <span className="image-link-label">View project</span>
+            <span className="image-link-label">View portfolio</span>
           </Link>
           <div className="hero-meta">
             <p>{featured.title}</p>
-            <p>{featured.location}, {featured.year}</p>
+            <p>{featured.location}</p>
           </div>
         </section>
 
         <section className="statement">
-          <p className="eyebrow">Approach</p>
+          <p className="eyebrow">Meet Nora</p>
           <p>
-            Bringing a grounded presence, considered movement, and a distinct
-            point of view to every frame. Available for fashion, beauty, and
-            commercial bookings worldwide.
+            From making films with friends to playing basketball and soccer,
+            Nora loves trying something new. Bilingual in English and Mandarin
+            Chinese, she is beginning her modeling journey in Vancouver.
           </p>
           <Link className="text-link" href="/about">More about Nora <span>↗</span></Link>
         </section>
