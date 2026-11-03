@@ -64,7 +64,12 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         <section className="gallery" aria-label={`${project.title} gallery`}>
           {project.gallery.map((image) => (
             <div className="gallery-image" key={image.src}>
-              <Image src={image.src} alt={image.alt} fill sizes="(max-width: 800px) 100vw, 75vw" />
+              <Image
+                src={image.src}
+                alt={image.alt}
+                fill
+                sizes="(max-width: 800px) 100vw, (max-width: 1400px) 95vw, 1400px"
+              />
             </div>
           ))}
         </section>
